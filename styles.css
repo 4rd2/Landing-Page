@@ -1,0 +1,48 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    color: #f9faf8;
+}
+
+.top {
+    flex-grow: 1;
+    display: flex;
+    background-color: #1F2937;
+    justify-content: space-around;
+}
+
+.evens {
+    flex-grow: 1;
+    display: flex;
+    background-color: #f9faf8;
+}
+
+.lower {
+    flex-grow: 1;
+    display: flex;
+    background-color: #E5E7EB;
+}
+
+.headers {
+    display: flex;
+    border: solid;
+    gap: 20px;
+
+}
+
+#Logo {
+    font-size: 24px;
+}
+
+#paragraph {
+    font-size: 36px;
+    color:#1F2937;  
+    font-style: italic;
+}
