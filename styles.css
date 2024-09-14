@@ -1,3 +1,4 @@
+/*Overall website styling*/
 html, body {
     height: 100%;
     margin: 0;
@@ -10,39 +11,62 @@ html, body {
     height: 100vh;
     color: #f9faf8;
 }
-
-.top {
-    flex-grow: 1;
-    display: flex;
-    background-color: #1F2937;
-    justify-content: space-around;
-}
-
-.evens {
-    flex-grow: 1;
-    display: flex;
-    background-color: #f9faf8;
-}
-
-.lower {
-    flex-grow: 1;
-    display: flex;
-    background-color: #E5E7EB;
-}
-
-.headers {
-    display: flex;
-    border: solid;
-    gap: 20px;
-
-}
+/*Headers*/
 
 #Logo {
     font-size: 24px;
 }
 
+.headers {
+    display: flex;
+    gap: 20px;
+    font-size: 18px;
+    color: #E5E7EB; 
+}
+
+/*Top Section*/
+.top {
+    flex-grow: 1;
+    display: flex;
+    background-color: #1F2937;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/*Upper Middle Section*/
+.evens {
+    flex-grow: 1;
+    display: flex;
+    background-color: #f9faf8;
+    justify-content: center;
+}
+
+#infoheader {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+/*Lower Middle Section*/
+.lower {
+    flex-grow: 1;
+    display: flex;
+    background-color: #E5E7EB;  
+    flex-direction: column;
+} 
+
 #paragraph {
     font-size: 36px;
     color:#1F2937;  
     font-style: italic;
+    border: 
 }
+
+#name {
+    color: #1F2937;
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+/*Bottom Section*/
